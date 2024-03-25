@@ -20,3 +20,4 @@ public class StaticVsNonStatic {
         return a+b;
     }
 }
+
