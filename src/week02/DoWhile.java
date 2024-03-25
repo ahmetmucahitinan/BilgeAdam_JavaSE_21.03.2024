@@ -1,4 +1,4 @@
-package Week02;
+package week02;
 
 public class DoWhile {
     public static void main(String[] args) {
