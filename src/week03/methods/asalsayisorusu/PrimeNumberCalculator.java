@@ -51,12 +51,12 @@ public class PrimeNumberCalculator {
         // Herhangi bir parametre girilmeyen constructorlara
         // NoArgsConstructor(Argümansız/Parametresiz) constructor denir.
     }
-    PrimeNumberCalculator(long number){
-        /* Bu sınıfın bir nesnesi oluşturulurken dışarıdan bir sayının parametre olarak girilmesi durumunda
-        bu constructor çalışacaktır. Yukarıda parametre olarak aldığım number değişkenini bir alt satırda
+    PrimeNumberCalculator(long number) {
+        /*Bu sınıfın bir nesnesi oluşturulurken dışarıdan bir sayının parametre olarak girilmesi durumunda,
+         bu constructor çalışacaktır. Yukarıda parametre olarak aldığım number değişkenini bir alt satırda
          number isimli field'ıma değer olarak atıyorum. Bu şekilde olan constructorlara Parametreli Constructor
-         (Parameterized Constructor) denir. Argüman olarak nesne üretmek için kullanılır.*/
-        this.number = number; // buradaki this. ifadesi, sınıfın değişkeni olan number'a seslendiğimi ifade eder.
+         (Parameterized Constructor) denir. Argüman alarak nesne üretmek için kullanılır.*/
+        this.number=number; //buradaki this. ifadesi, sınıfın değişkeni olan number'a seslendiğimi ifade eder.
     }
 
     public/*access modifier*/ boolean/*geri dönüş tipi*/ asalSayiMi /*metot ismi*/()/*parametre alanı*/{/*Metot gövdesi*/
@@ -96,4 +96,3 @@ public class PrimeNumberCalculator {
         }
     }
 }
-
