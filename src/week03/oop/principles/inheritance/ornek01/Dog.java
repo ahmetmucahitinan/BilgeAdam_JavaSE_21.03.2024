@@ -1,6 +1,8 @@
-package week03.oop.principles.inheritance;
+package week03.oop.principles.inheritance.ornek01;
 
-public class Dog extends Animal{
+import week03.oop.principles.inheritance.ornek01.Animal;
+
+public class Dog extends Animal {
     public void Display(){
         System.out.println("My name is " +name);
     }
