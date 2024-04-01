@@ -17,8 +17,8 @@ public class Main {
         System.out.println("Aracın Özellikleri : "
                 + "\n Markası : " + vehicle.brand + ", "
                 + "\n Modeli : " + vehicle.model + ", "
-                + "\n Yılı : "+ vehicle.year );
-        System.out.println("Aracın Kapı Sayısı : "+car.numDoors);
+                + "\n Yılı : "+ vehicle.year + ", "
+                + "\nAracın Kapı Sayısı : "+car.numDoors);
         car.stop();
 
         System.out.println();
@@ -27,9 +27,9 @@ public class Main {
         System.out.println("Aracın Özellikleri : "
                 + "\n Markası : " + vehicle.brand + ", "
                 + "\n Modeli : " + vehicle.model + ", "
-                + "\n Yılı : "+ vehicle.year );
-        System.out.println("Aracın Kapı Sayısı : "+car.numDoors);
-        System.out.println("Motosiklet Yan Römorka Sahip Mi? : "+motorcycle.hasSidecar);
+                + "\n Yılı : "+ vehicle.year + ", "
+                + "\n Aracın Kapı Sayısı : "+car.numDoors+ ", "
+                + "\n Motosiklet Yan Römorka Sahip Mi? : "+motorcycle.hasSidecar);
         motorcycle.stop();
 
         System.out.println();
@@ -38,12 +38,12 @@ public class Main {
         System.out.println("Aracın Özellikleri : "
                 + "\n Markası : " + vehicle.brand + ", "
                 + "\n Modeli : " + vehicle.model + ", "
-                + "\n Yılı : "+ vehicle.year );
-        System.out.println("Aracın Kapı Sayısı : "+car.numDoors);
-        System.out.println("Motosiklet Yan Römorka Sahip Mi? : "+motorcycle.hasSidecar);
-        System.out.println("Kamyonun Yük Kapasitesi : " + truck.cargoCapacity);
+                + "\n Yılı : "+ vehicle.year + ", "
+                + "\n Aracın Kapı Sayısı : "+car.numDoors+ ", "
+                + "\n Motosiklet Yan Römorka Sahip Mi? : "+motorcycle.hasSidecar+ ", "
+                + "\n Kamyonun Yük Kapasitesi : " + truck.cargoCapacity);
         truck.stop();
-
+// Her bir class içerisinde veri arttırarak yazıldı
 
     }
 }
