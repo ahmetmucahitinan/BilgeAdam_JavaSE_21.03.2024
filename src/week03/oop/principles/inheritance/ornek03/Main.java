@@ -12,38 +12,34 @@ public class Main {
         vehicle.stop();
 
         System.out.println();
-        Car car = new Car(2);
+        Car car = new Car("Ford","Mustang",1969,2);
         car.start();
         System.out.println("Aracın Özellikleri : "
-                + "\n Markası : " + vehicle.brand + ", "
-                + "\n Modeli : " + vehicle.model + ", "
-                + "\n Yılı : "+ vehicle.year + ", "
+                + "\n Markası : " + car.brand + ", "
+                + "\n Modeli : " + car.model + ", "
+                + "\n Yılı : "+ car.year + ", "
                 + "\nAracın Kapı Sayısı : "+car.numDoors);
         car.stop();
 
         System.out.println();
-        Motorcycle motorcycle = new Motorcycle(false);
+        Motorcycle motorcycle = new Motorcycle("Yamaha","R6",2020, false);
         motorcycle.start();
         System.out.println("Aracın Özellikleri : "
-                + "\n Markası : " + vehicle.brand + ", "
-                + "\n Modeli : " + vehicle.model + ", "
-                + "\n Yılı : "+ vehicle.year + ", "
-                + "\n Aracın Kapı Sayısı : "+car.numDoors+ ", "
+                + "\n Markası : " + motorcycle.brand + ", "
+                + "\n Modeli : " + motorcycle.model + ", "
+                + "\n Yılı : "+ motorcycle.year + ", "
                 + "\n Motosiklet Yan Römorka Sahip Mi? : "+motorcycle.hasSidecar);
         motorcycle.stop();
 
         System.out.println();
-        Truck truck = new Truck(150000.05);
+        Truck truck = new Truck("Volvo","FH-540", 2024,150000.05);
         truck.start();
         System.out.println("Aracın Özellikleri : "
-                + "\n Markası : " + vehicle.brand + ", "
-                + "\n Modeli : " + vehicle.model + ", "
-                + "\n Yılı : "+ vehicle.year + ", "
-                + "\n Aracın Kapı Sayısı : "+car.numDoors+ ", "
-                + "\n Motosiklet Yan Römorka Sahip Mi? : "+motorcycle.hasSidecar+ ", "
+                + "\n Markası : " + truck.brand + ", "
+                + "\n Modeli : " + truck.model + ", "
+                + "\n Yılı : "+ truck.year + ", "
                 + "\n Kamyonun Yük Kapasitesi : " + truck.cargoCapacity);
         truck.stop();
-// Her bir class içerisinde veri arttırarak yazıldı
 
     }
 }
