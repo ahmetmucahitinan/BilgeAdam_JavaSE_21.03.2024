@@ -4,8 +4,8 @@ public class Game {
 
 
     public static void main(String[] args) {
-    Enemy goblin = new Goblin();
-    Enemy zombie = new Zombie();
+        Enemy goblin = new Goblin();
+        Enemy zombie = new Zombie();
         goblin.attack();
         zombie.attack();
 
