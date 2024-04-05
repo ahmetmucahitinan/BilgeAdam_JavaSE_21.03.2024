@@ -1,0 +1,8 @@
+package week04.entityrelations.threads.extendsthread;
+
+public class MyThread extends Thread{
+
+    public void run() {
+        System.out.println("Thread is runnig. ");
+    }
+}
