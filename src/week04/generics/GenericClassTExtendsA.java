@@ -12,3 +12,4 @@ public class GenericClassTExtendsA <T extends Number>{
         GenericClassTExtendsA<Integer> intObj = new GenericClassTExtendsA<Integer>();
     }
 }
+
