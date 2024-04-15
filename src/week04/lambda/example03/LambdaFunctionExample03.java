@@ -1,4 +1,4 @@
-package week04.lambda.ornek03;
+package week04.lambda.example03;
 
 public class LambdaFunctionExample03 {
     public static void main(String[] args) {

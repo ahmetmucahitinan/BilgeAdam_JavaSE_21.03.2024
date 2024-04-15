@@ -1,6 +1,6 @@
-package week04.lambda.ornek02;
+package week04.lambda.example02;
 
-import week04.lambda.ornek02.LambdaFunctionWithParameter;
+import week04.lambda.example02.LambdaFunctionWithParameter;
 
 public class LambdaFunctionTest02 {
     public static void main(String[] args) {

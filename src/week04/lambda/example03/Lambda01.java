@@ -1,4 +1,4 @@
-package week04.lambda.ornek03;
+package week04.lambda.example03;
 
 public class Lambda01 implements LambdaFunctionalWithMultipleParameters{
     @Override

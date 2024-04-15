@@ -1,4 +1,4 @@
-package week04.lambda.ornek02;
+package week04.lambda.example02;
 
 public interface LambdaFunctionWithParameter {
     void message(String msg);
