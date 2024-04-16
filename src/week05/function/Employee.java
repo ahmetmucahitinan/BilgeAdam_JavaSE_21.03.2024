@@ -1,6 +1,8 @@
 package week05.function;
 
 public class Employee {
+
+    //FunctionTest03 sorusunun class'ı
     private String name;
     private Integer age;
 
