@@ -8,6 +8,8 @@ Hocanın Notları:
             4.1 - Tabloyu açmak ve içeriğine erişmek için;
                 ->> Tabloya sağ click, View/Edit Data -> All Rows
 ------------------------------------------------
+Tuttuğum Notlar:
+
 VERİ TABANI NOTLARI:
 
 Ek Not:
