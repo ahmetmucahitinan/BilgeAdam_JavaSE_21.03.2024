@@ -28,3 +28,21 @@ oluşturduğun tabloyu açma : ( Yöntem 1 ) Tables -> Oluşturduğun tablo ismi
 
  tablo içi veri işlemleri query:
  Tables paketine sağ tık + Query tool
+
+ 19.04.2024 Tarihli Not
+  = : Equal to (Eşittir)
+  < : less than (Daha az)
+  > : Greater than (Daha büyük)
+  <= : Less than or equal to (Daha az veya eşit)
+  >= : Greater than or equal to (Büyük veya eşit)
+  <> : Not equal to (Eşit değil)
+  != : Not equal to (Eşit değil)
+  LIKE : Check if a value matches a pattern( case sensitive) (Bir değerin bir kalıpla eşleşip eşleşmediğini kontrol eder (büyük/küçük harfe duyarlı)
+  ILIKE :Check if a value matches a pattern( case insensitive) (Bir değerin bir kalıpla eşleşip eşleşmediğini kontrol edin (büyük/küçük harfe duyarsız)
+  AND : Logical AND (Mantıksal AND)
+  OR : Logical OR (Mantıksal VEYA)
+  IN : Check if a value between a range of values (Bir değerin bir değer aralığı arasında olup olmadığını kontrol edin)
+  BETWEEN : Check if a value between a range of values (Bir değerin bir değer aralığı arasında olup olmadığını kontrol eder)
+  IS NULL : Check if a value is NULL (Bir değerin NULL olup olmadığını kontrol eder)
+  NOT : Makes a negative result e.g. NOT LIKE, NOT IN, NOT BETWEEN (Olumsuz bir sonuç verir, örneğin NOT LIKE, NOT IN, NOT BETWEEN)
+
