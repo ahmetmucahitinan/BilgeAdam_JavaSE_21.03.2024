@@ -8,10 +8,10 @@ VALUES
 ('Dodge', 'Challenger', 1970),
 ('Mercury', 'Cougar', 1967),
 ('Renault', '5 GT', 1992),
-('Toyota', 'GT 86', 2013);		
-
+('Toyota', 'GT 86', 2013);
 
 SELECT * FROM cars
+
 
 SELECT * FROM cars
 WHERE brand = 'Nissan'; -- Markası Nissan olanları getir
