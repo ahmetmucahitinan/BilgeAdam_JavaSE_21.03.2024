@@ -1,5 +1,6 @@
 INSERT INTO cars (brand,model,year)	
 VALUES 
+('Ferrari', '', 2012),
 ('Ford', 'Mustang', 1969),
 ('Toyota', 'Camry', 2015),		
 ('Fiat', '124', 1972),
@@ -71,4 +72,29 @@ OR model = 'Camry'; -- Markası 'Toyota' VEYA (AND) modeli 'Camry' olan tüm kay
 SELECT * FROM cars
 WHERE brand IN ('Ford', ('Renault'), 'Toyota'); -- Markası (Ford, Renault, Toyota) olanları getirsin.
 
-						   
+SELECT * FROM cars
+WHERE year BETWEEN 1950 AND 2000; -- Yılı 1950 ile 2000 yılları arasında olan büttün kayıtları getirir.
+
+SELECT * FROM cars
+WHERE model IS NULL; -- Model NULL olan tüm kayıtları döndürür.
+
+-- NOT operatörü, operatörün doğruluğunu tersine çevirmek için LIKE, ILIKE, IN, BETWEEN, NULL 
+-- operatöleri birlikte kullanılabilir.
+SELECT * FROM cars
+WHERE brand NOT LIKE -- F ile başlamayan kayıtları döndürür. -> LIKE case sensitive (büyük-küçük harf duyarlı).
+'F%';
+
+SELECT * FROM cars
+WHERE brand NOT ILIKE -- f yada F ile başlamayan kayıtları döndürür. -> ILIKE case sensitive değildir (büyük-küçük harf duyarsız).
+'f%';
+
+
+SELECT * FROM cars
+WHERE brand NOT IN('Toyota', 'Renault', 'Nissan'); -- Markanın bu listede olmadığı bütün kayıtları döndürür.
+
+SELECT * FROM cars
+WHERE year NOT BETWEEN 1950 AND 2000; -- Yılı 1950 ile 2000 yılları arasında olmayan bütün kayıtları döndürür.
+
+SELECT * FROM cars
+WHERE model IS NOT NULL; -- model NULL olmayan bütün kayıtlarını döndürür.
+
