@@ -46,3 +46,8 @@ oluşturduğun tabloyu açma : ( Yöntem 1 ) Tables -> Oluşturduğun tablo ismi
   IS NULL : Check if a value is NULL (Bir değerin NULL olup olmadığını kontrol eder)
   NOT : Makes a negative result e.g. NOT LIKE, NOT IN, NOT BETWEEN (Olumsuz bir sonuç verir, örneğin NOT LIKE, NOT IN, NOT BETWEEN)
 
+
+
+________________________________________________________________________________
+22.04.2024
+
